@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <fieldset>
+            <legend><span>Student Registration Form</span></legend>
+            <style>
+                span{
+                    color: blue;
+                    font-size: x-large;
+                    font-family: monospace;
+                    
+                }
+               label{
+                font-family: 'Raleway', sans-serif;
+                color:crimson;
+                padding: 10px;
+
+               }
+               input[type="text"] {
+                font-family: 'Raleway', sans-serif;
+                border-radius: 10px;
+                border-color:hotpink;
+                background-color:lavender;
+
+               }
+               input[ type="number"]{
+                border-radius: 10px;
+                font-family: 'Raleway', sans-serif;
+                border-color:hotpink;
+                background-color:lavender;
+
+               }
+               input[type="email"]{
+                border-radius: 10px;
+                border-color:hotpink;
+                background-color:lavender;
+
+               }
+               input[ type="date"]{
+                border-radius: 10px;
+                border-color:hotpink;
+                background-color:lavender;
+
+               }
+               textarea{
+                border-radius: 10px;
+                border-color:hotpink;
+                background-color:lavender;
+
+               }
+               input[type="date"]{
+                border-radius: 10px;
+            
+                background-color:lavender;
+
+               }
+               fieldset{
+                width: max-content;
+               }
+            form{
+                background-color:lavenderblush;
+            }
+            body,tr,td,table{padding: 10px;}
+            </style>
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td><label>First name</label></td>
+                    <td><input type="text" maxlength="40" placeholder="First name only" required></td>
+                </tr>
+                <tr>
+                    <td><label>Last Name</label></td>
+                    <td><input type="text" maxlength="10" placeholder="Last name only" required></td>
+                </tr>
+                <tr>
+                    <td><label>Date pf Birth</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Moblie Number</label></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="email" placeholder="abc@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><label>Country</label></td>
+                    <td><input type="text" value="India"></td>
+                </tr>
+                <tr>
+                    <td><label>Select Degree</label></td>
+                    <td><select>
+                        <option>B.E</option>
+                        <option>M.Sc</option>
+                        <option>B.Sc</option>
+                        <option>B.pharm</option>
+                        <option>M.E</option>
+                        <option>MCA</option>
+                    </select>
+                    </td>
+            
+                </tr>
+                <tr>
+                    <td><label>select Gender</label></td>
+                    <td><input type="radio" name="Gender">Male
+                    <input type="radio" name="Gender">Female
+                    <input type="radio" name="Gender">Other</td>
+                </tr>
+                <tr><td><label>Select my Hobby</label></td>
+                    <td><input type="checkbox">Reading
+                        <input type="checkbox">Watching Movies
+                        <input type="checkbox">Raiding
+                        <input type="checkbox">Gaming</td>
+                </tr>
+                <tr>
+                    <td><label>Upload Profile Photo</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><label>Upload Graduaton Mark Sheet</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><label>Present Address</label></td>
+                    <td><textarea rows="8" cols="40"></textarea></td>
+                </tr>
+                <tr>
+                    <td><button  type="date">Submit</button></td>
+                    <td><Button type="reset">Rest</Button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</fieldset>
+</html>
